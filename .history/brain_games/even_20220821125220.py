@@ -1,0 +1,17 @@
+"""Этот скрипт содержит функцию random_game."""
+
+from random import randint
+import prompt
+
+def welcome_user():
+    """Это первая наша функция."""
+    name = prompt.string('May I have your name? ')
+    print('Hello, {0}!'.format(name))
+
+
+def random_game():
+    """"Эта функция генерирует случайное число."""
+    number_random = randint(1, 100)
+    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('Question: ' + str(number_random))
+ 
