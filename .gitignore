@@ -7,5 +7,5 @@ dist/
 coverage.xml
 .pytest_cache/
 .vim
-**/__pycache__
+***/__pycache__
 .history
