@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Скрипт для запуска."""
+"""Script to run."""
 
-from brain_games.even import random_game
+from brain_games.games.even import random_game
 
 
 def main():
-    """Сыграть в игру на делимость."""
+    """Play a divisibility game."""
     random_game()
 
 

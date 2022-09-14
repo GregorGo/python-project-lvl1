@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Скрипт для запуска."""
 
-from brain_games.cli import welcome_user
+from brain_games.games.cli import welcome_user
 
 
 def main():
-    """Поприветствовать игрока."""
+    """Greet the player."""
     welcome_user()
 
 
