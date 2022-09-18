@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Script to run."""
 
-from brain_games.games.even import random_game
+from brain_games.games.calc import random_game
 
 
 def main():
@@ -11,4 +11,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
