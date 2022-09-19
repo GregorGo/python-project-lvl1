@@ -19,12 +19,12 @@ def random_game():
         print('Question: {} {} {}'.format(num1, rand_choice, num2))
         if rand_choice == '*':
             result = num1 * num2
-        if rand_choice == '+':
+        elif rand_choice == '+':
             result = num1 + num2
-        if rand_choice == '-':
+        else:
             result = num1 - num2
         char = prompt.string('Your answer: ')
-        if int(char) == int(result):
+        if str(char) == str(result):
             print('Correct!')
         else:
             print('"{}" is wrong answer ;(. Correct answer was "{}".'.format(char, result))
