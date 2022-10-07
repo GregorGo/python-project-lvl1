@@ -1,4 +1,4 @@
-"""This script contains the function welcome_user."""
+"""This module contains the function welcome_user."""
 
 import prompt
 

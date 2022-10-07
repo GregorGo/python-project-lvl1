@@ -1,4 +1,4 @@
-"""This script contains the random_game function."""
+"""This module contains the random_game function."""
 
 import prompt
 
