@@ -16,7 +16,8 @@ def random_game():
         print('Question: {} {}'.format(num1, num2))
         result1 = num1 // num2
         result2 = num2 // num1
-        if result == num2:
+        if result1 == num2:
+            
             char = prompt.string('Your answer: ')
         if str(char) == str(result):
             print('Correct!')
@@ -25,3 +26,5 @@ def random_game():
             return print("Let\'s try again, {0}!".format(name))
         counter += 1
     print('Congratulations, {0}!'.format(name))
+    
+    
