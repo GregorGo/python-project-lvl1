@@ -9,11 +9,11 @@ import prompt
 
 def random_game():
     """Check and return the answer whether the number is even or not."""
-    logic.welcome()
+    
     print('Answer "yes" if the number is even, otherwise answer "no".')
     number_random = randint(1, 100)
     print('Question: {0}'.format(number_random))
-    logic.cycle()
+    
     if number_random % 2 != 0 and char == 'no':
         print('Correct!')
     if number_random % 2 == 0 and char == 'yes':
@@ -23,4 +23,4 @@ def random_game():
         return print("Let\'s try again, {0}!".format(name))
     elif number_random % 2 == 0 and char != 'yes':
         return print('"{0}" is wrong answer ;(. Correct answer was "yes".'.format(char))
-    logic.answer()
+    
