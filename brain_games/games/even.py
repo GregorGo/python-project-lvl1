@@ -22,9 +22,7 @@ def random_game():
             result = "yes"
         print('Question: {0}'.format(number_random))
         char = prompt.string('Your answer: ')
-        if number_random % 2 != 0 and char == "no":
-            print('Correct!')
-        elif number_random % 2 == 0 and char == "yes":
+        if str(char) == str(result):
             print('Correct!')
         else:
             print('"{}" is wrong answer ;(. Correct answer was "{}".'.format(char, result))

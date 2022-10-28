@@ -11,14 +11,16 @@ def random_game():
     print('What is the result of the expression?')
     counter = 0
     while counter < 3:
-        num1 = randint(1, 10)
-        num2 = randint(1, 10)
+        num1 = randint(1, 100)
+        num2 = randint(1, 100)
         print('Question: {} {}'.format(num1, num2))
-        result1 = num1 // num2
-        result2 = num2 // num1
-        if result1 == num2:
-            
-            char = prompt.string('Your answer: ')
+        while num1 != num2:
+            if num1 > num2:
+                num1 = num1 - num2
+            else:
+                num2 = num2 - num1
+            result = num1
+        char = prompt.string('Your answer: ')
         if str(char) == str(result):
             print('Correct!')
         else:
