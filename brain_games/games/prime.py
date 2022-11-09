@@ -7,7 +7,7 @@ import prompt
 
 def random_game():
     """Answer "yes" if given number is prime. Otherwise answer "no"."""
-    print('Welcome to the Brain Games!')h
+    print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
     print('Answer "yes" if the number is prime, otherwise answer "no".')
