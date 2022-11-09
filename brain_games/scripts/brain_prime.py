@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Script to run."""
 
-from brain_games.games.progression import random_game
+from brain_games.games.prime import random_game
 
 
 def main():
-    """Play a progression game."""
+    """Play a prime game."""
     random_game()
 
 

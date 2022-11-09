@@ -6,7 +6,7 @@ from random import choice, randint
 
 
 def random_game():
-    """Check and return the answer whether the number is even or not."""
+    """Check and return the value of expressions."""
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))

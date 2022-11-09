@@ -1,3 +1,5 @@
+"""This module contains the random_game function."""
+
 import prompt
 
 from random import choice, randint
