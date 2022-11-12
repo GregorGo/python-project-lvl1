@@ -13,7 +13,7 @@ def random_game():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     counter = 0
     while counter < 3:
-        number_random = randint(1, 100)
+        number_random = randint(1, 50)
         if number_random % 2 != 0:
             result = "yes"
         else:
