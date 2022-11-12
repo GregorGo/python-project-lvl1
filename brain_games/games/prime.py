@@ -10,7 +10,7 @@ def random_game():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
-    print('Answer "yes" if the number is prime, otherwise answer "no".')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     counter = 0
     while counter < 3:
         number_random = randint(1, 100)
