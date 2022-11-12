@@ -10,7 +10,7 @@ def random_game():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
-    print('What is the result of the expression?')
+    print('Find the greatest common divisor of given numbers.')
     counter = 0
     while counter < 3:
         num1 = randint(1, 100)
