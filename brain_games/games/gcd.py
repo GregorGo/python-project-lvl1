@@ -2,7 +2,7 @@
 
 import prompt
 
-from random import choice, randint
+from random import randint
 
 
 def random_game():
@@ -30,5 +30,3 @@ def random_game():
             return print("Let\'s try again, {0}!".format(name))
         counter += 1
     print('Congratulations, {0}!'.format(name))
-    
-    
