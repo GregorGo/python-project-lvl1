@@ -1,5 +1,7 @@
 """This module contains the random_game function."""
 
+from math import sqrt
+
 from random import randint
 
 import prompt
@@ -13,12 +15,18 @@ def random_game():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     counter = 0
     while counter < 3:
-        number_random = randint(1, 50)
-        if number_random % 2 != 0:
-            result = "yes"
-        else:
-            result = 'no'
-        print('Question: {0}'.format(number_random))
+        num = randint(1, 100)
+        account = 0
+        if num == 1 or num == 2:
+            result = 'yes'
+        for i in range(2, num // 2 + 1):
+            if (num % i == 0):
+                account +=  1
+            if (account <= 0):
+                result = 'yes'
+            else:
+                result = 'no'
+        print('Question: {0}'.format(num))
         char = prompt.string('Your answer: ')
         if str(char) == str(result):
             print('Correct!')
