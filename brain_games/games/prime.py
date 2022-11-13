@@ -13,9 +13,9 @@ def random_game():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     counter = 0
     while counter < 3:
-        num = randint(1, 100)
+        num = 3
         account = 0
-        if num == 1 or num == 2:
+        if num == 1 or num == 2 or num == 3:
             result = 'yes'
         for i in range(2, num // 2 + 1):
             if (num % i == 0):
