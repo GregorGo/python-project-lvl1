@@ -1,7 +1,5 @@
 """This module contains the random_game function."""
 
-from math import sqrt
-
 from random import randint
 
 import prompt
