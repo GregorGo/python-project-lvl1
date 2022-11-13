@@ -19,7 +19,7 @@ def random_game():
             result = 'yes'
         for i in range(2, num // 2 + 1):
             if (num % i == 0):
-                account +=  1
+                account += 1
             if (account <= 0):
                 result = 'yes'
             else:
