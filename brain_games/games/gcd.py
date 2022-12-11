@@ -16,6 +16,8 @@ def random_game():
         num1 = randint(1, 100)
         num2 = randint(1, 100)
         print('Question: {} {}'.format(num1, num2))
+        if num1 == num2:
+            result = num1
         while num1 != num2:
             if num1 > num2:
                 num1 = num1 - num2
