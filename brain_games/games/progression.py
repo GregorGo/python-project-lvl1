@@ -24,7 +24,8 @@ def random_game():
         if str(char) == str(result):
             print('Correct!')
         else:
-            print('''"{}" is wrong answer ;(. Correct answer was "{}".'''.format(char, result))
+            print('"{}" is wrong answer ;(.'
+                  'Correct answer was "{}".'.format(char, result))
             return print("Let\'s try again, {0}!".format(name))
         counter += 1
     print('Congratulations, {0}!'.format(name))
