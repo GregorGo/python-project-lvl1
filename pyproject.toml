@@ -6,9 +6,9 @@ authors = ["Grigoriy <mr.igoshkin@inbox.ru>"]
 packages = [
   { include = "brain_games" },
 ]
-repository = https://github.com/GregorGo/python-project-lvl1.git
-сlassifiers = [
-    "Topic :: Introduction to the Python language :: Obtaining primary development skills",  
+repository = "https://github.com/GregorGo/python-project-lvl1.git"
+classifiers = [
+    "Topic :: Introduction to the Python language :: Obtaining primary development skills" 
 ]
 
 [tool.poetry.dependencies]

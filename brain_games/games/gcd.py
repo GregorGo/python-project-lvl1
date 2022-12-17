@@ -5,7 +5,7 @@ import prompt
 from random import randint
 
 
-def random_game():
+def gcd_game():
     """Find the greatest common divisor of given numbers."""
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
