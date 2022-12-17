@@ -7,6 +7,7 @@
 This project contains various math games
 
 To install, use:
+
 install:
 	poetry install
 
