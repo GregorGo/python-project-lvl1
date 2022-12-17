@@ -1,10 +1,14 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "This is a package with small math games."
 authors = ["Grigoriy <mr.igoshkin@inbox.ru>"]
 packages = [
   { include = "brain_games" },
+]
+repository = https://github.com/GregorGo/python-project-lvl1.git
+сlassifiers = [
+    "Topic :: Introduction to the Python language :: Obtaining primary development skills",  
 ]
 
 [tool.poetry.dependencies]
