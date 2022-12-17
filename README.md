@@ -4,7 +4,13 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/b2c44847c63ad5cdb69e/maintainability)](https://codeclimate.com/github/GregorGo/python-project-lvl1/maintainability)
 
+
 This project contains various math games
+
+
+First, clone the repository: 
+git clone https://github.com/GregorGo/python-project-lvl1.git
+
 
 To install, use:
 
@@ -23,8 +29,6 @@ publish:
 package-install: 
 	python3 -m pip install --user --force-reinstall dist/*.whl
 
-make lint:
-	poetry run flake8 brain_games
 
 BRAIN-EVEN
 [![asciicast](https://asciinema.org/a/hGfechWRX7hy5a34fKhsN5FSR.svg)](https://asciinema.org/a/hGfechWRX7hy5a34fKhsN5FSR)
