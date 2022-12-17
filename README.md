@@ -11,13 +11,13 @@ BRAIN-CALC
 [![asciicast](https://asciinema.org/a/PFvLCXoQFPXucHwdnnrqLDtmF.svg)](https://asciinema.org/a/PFvLCXoQFPXucHwdnnrqLDtmF)
 
 BRAIN-GCD
-
+[![asciicast](https://asciinema.org/a/It3OqPXXXRVNUODEVPq1b3RzH.svg)](https://asciinema.org/a/It3OqPXXXRVNUODEVPq1b3RzH)
 
 BRAIN-PROGRESSION
-
+[![asciicast](https://asciinema.org/a/0n2N8ts8Y7ebSksPri1Ul2q7l.svg)](https://asciinema.org/a/0n2N8ts8Y7ebSksPri1Ul2q7l)
 
 BRAIN-PRIME
-
+[![asciicast](https://asciinema.org/a/2qPe683ec35fBxxZlZZyidRnE.svg)](https://asciinema.org/a/2qPe683ec35fBxxZlZZyidRnE)
 
 
 
