@@ -4,6 +4,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/b2c44847c63ad5cdb69e/maintainability)](https://codeclimate.com/github/GregorGo/python-project-lvl1/maintainability)
 
+This project contains various math games
+
 BRAIN-EVEN
 [![asciicast](https://asciinema.org/a/hGfechWRX7hy5a34fKhsN5FSR.svg)](https://asciinema.org/a/hGfechWRX7hy5a34fKhsN5FSR)
 
