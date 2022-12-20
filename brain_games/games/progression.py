@@ -1,7 +1,7 @@
 from random import choice, randint
 
 
-DESCRIPTION = 'Find the number of missing in the progression.'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
 def get_question_and_result():
