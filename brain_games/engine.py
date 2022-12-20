@@ -1,7 +1,5 @@
 import prompt
 
-from brain_games.games import gcd, even, prime, progression, calc
-
 
 def run_game(game):
     print('Welcome to the Brain Games!')
