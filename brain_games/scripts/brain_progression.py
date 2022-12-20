@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Script to run."""
 
-from brain_games.games.progression import random_game
+from brain_games.engine import run_game
+from brain_games.games import progression
 
 
 def main():
-    """Play a progression game."""
-    random_game()
+    run_game(progression)
 
 
 if __name__ == '__main__':

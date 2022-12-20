@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Script to run."""
 
-from brain_games.games.calc import random_game
+from brain_games.engine import run_game
+from brain_games.games import calc
 
 
 def main():
-    """Play a calculator game."""
-    random_game()
+    run_game(calc)
 
 
 if __name__ == '__main__':
