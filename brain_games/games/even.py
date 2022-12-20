@@ -1,7 +1,7 @@
 from random import randint
 
 
-DESCRIPTION = 'Check and return the answer whether the number is even or not.'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def get_question_and_result():
