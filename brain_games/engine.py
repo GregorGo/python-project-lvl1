@@ -6,9 +6,10 @@ def run_game(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.DESCRIPTION)
-    counter = 0
-    roundCount = 3
-    while counter < roundCount:
+    roundCount = range(0, 3, 1)
+    for round in roundCount:
+        question = (f'Question: {num_random}')
+        print(question)
         true_result = game.get_question_and_true_result()
         answer = prompt.string('Your answer: ')
         if answer == true_result:
@@ -16,5 +17,4 @@ def run_game(game):
         if answer != true_result:
             print(f'"{answer}" is wrong answer ;(. Correct answer was "{true_result}"')
             return print("Let\'s try again, {0}!".format(name))
-        counter += 1
     print(f'Congratulations, {name}!')
