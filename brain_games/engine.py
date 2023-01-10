@@ -8,9 +8,9 @@ def run_game(game):
     print(game.DESCRIPTION)
     roundCount = range(0, 3, 1)
     for round in roundCount:
+        num_random, true_result = game.get_question_and_true_result()
         question = (f'Question: {num_random}')
         print(question)
-        true_result = game.get_question_and_true_result()
         answer = prompt.string('Your answer: ')
         if answer == true_result:
             print('Correct!')

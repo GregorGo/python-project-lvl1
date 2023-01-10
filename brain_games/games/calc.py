@@ -13,7 +13,6 @@ def get_question_and_true_result():
     ('*', operator.mul),
     )
     operator_name, operator_method = choice(operators)
-    question = (f'Question: {num_random1} {operator_name} {num_random2}')
-    print(question)
+    num_random = (f'{num_random1} {operator_name} {num_random2}')
     true_result = operator_method(num_random1, num_random2)
-    return str(true_result)
+    return num_random, str(true_result)
