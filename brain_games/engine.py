@@ -8,13 +8,16 @@ def run_game(game):
     print(game.DESCRIPTION)
     roundCount = range(0, 3, 1)
     for round in roundCount:
-        num_random, true_result = game.get_question_and_true_result()
-        question = (f'Question: {num_random}')
+        example, true_answer = game.get_example_and_true_answer()
+        question = (f'Question: {example}')
         print(question)
         answer = prompt.string('Your answer: ')
-        if answer == true_result:
+        if answer == true_answer:
             print('Correct!')
-        if answer != true_result:
-            print(f'"{answer}" is wrong answer ;(. Correct answer was "{true_result}"')
-            return print("Let\'s try again, {0}!".format(name))
+        if answer != true_answer:
+            print(
+                f'"{answer}" is wrong answer ;(.'
+                f'Correct answer was "{true_answer}"'
+            )
+            return print(f'Let\'s try again, {name}!')
     print(f'Congratulations, {name}!')
