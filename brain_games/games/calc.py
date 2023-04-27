@@ -16,5 +16,3 @@ def get_example_and_true_answer():
     example = (f'{num_random1} {operator_name} {num_random2}')
     true_answer = operator_method(num_random1, num_random2)
     return example, str(true_answer)
-    sdsd
-    
